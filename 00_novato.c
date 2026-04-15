@@ -3,9 +3,6 @@
 
 int main(){
     
-    char coluna[10] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'};
-    int linha[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-
     int  tabuleiro[10][10] = {0}; //Área do tabuleiro 10x10 utilizando uma Matriz (array bidimensional)
 
     int navioHorizontal[3] = {3, 3, 3};  //Três posições horizontal todas declaradas pelo numero 3 utilizando Vetores(array unidimensional) 
